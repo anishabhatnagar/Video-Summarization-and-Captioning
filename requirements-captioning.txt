@@ -1,0 +1,10 @@
+tqdm==4.65.0
+h5py==3.1.0
+ortools==8.0.8283
+pyyaml==i
+numpy==1.19.5
+opencv-python==4.8.1
+torch==2.1.2
+torchvision==0.16.2
+av==11.0.0
+transformers==4.35.2
