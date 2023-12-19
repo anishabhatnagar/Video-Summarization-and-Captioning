@@ -1,0 +1,13 @@
+[2023-12-17 09:20:26,875] {'model': 'anchor-based', 'device': 'cuda', 'seed': 12345, 'splits': ['../splits/tvsum.yml', '../splits/summe.yml'], 'max_epoch': 300, 'model_dir': '../models/pretrain_ab_basic/', 'log_file': 'log.txt', 'lr': 5e-05, 'weight_decay': 1e-05, 'lambda_reg': 1.0, 'nms_thresh': 0.5, 'ckpt_path': None, 'sample_rate': 15, 'source': None, 'save_path': None, 'base_model': 'attention', 'num_head': 8, 'num_feature': 1024, 'num_hidden': 128, 'neg_sample_ratio': 2.0, 'incomplete_sample_ratio': 1.0, 'pos_iou_thresh': 0.6, 'neg_iou_thresh': 0.0, 'incomplete_iou_thresh': 0.3, 'anchor_scales': [4, 8, 16, 32], 'lambda_ctr': 1.0, 'cls_loss': 'focal', 'reg_loss': 'soft-iou'}
+[2023-12-17 09:20:31,104] tvsum split 0: diversity: 0.5027, F-score: 0.6447
+[2023-12-17 09:20:31,618] tvsum split 1: diversity: 0.4912, F-score: 0.5847
+[2023-12-17 09:20:31,917] tvsum split 2: diversity: 0.4664, F-score: 0.6404
+[2023-12-17 09:20:32,378] tvsum split 3: diversity: 0.4447, F-score: 0.6092
+[2023-12-17 09:20:32,867] tvsum split 4: diversity: 0.4767, F-score: 0.6234
+[2023-12-17 09:20:32,867] tvsum: diversity: 0.4763, F-score: 0.6205
+[2023-12-17 09:20:33,302] summe split 0: diversity: 0.6149, F-score: 0.4728
+[2023-12-17 09:20:33,482] summe split 1: diversity: 0.6199, F-score: 0.5216
+[2023-12-17 09:20:33,649] summe split 2: diversity: 0.7063, F-score: 0.5427
+[2023-12-17 09:20:33,833] summe split 3: diversity: 0.5908, F-score: 0.5224
+[2023-12-17 09:20:33,976] summe split 4: diversity: 0.6801, F-score: 0.4501
+[2023-12-17 09:20:33,976] summe: diversity: 0.6424, F-score: 0.5019
